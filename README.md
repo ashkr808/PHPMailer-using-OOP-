@@ -5,8 +5,8 @@ This repo  wraps PHP mailer into a class which makes it even easier to use for n
 
 # example
 
-$mailer = new Mail($senderName,$senderEmail,$senderPassword,$recipientEmail,$subject,$body);
-$mailer->sendMail();
+  $mailer = new Mail($senderName,$senderEmail,$senderPassword,$recipientEmail,$subject,$body);
+  $mailer->sendMail();
 
 # Instructions
   1.By deafult the SMTP host is of gmail (smtp.gmail.com) is used for senders email. If you want to use another eamil service pass in an     additional parameter white inctanciating the object. Example : 
@@ -20,5 +20,5 @@ $mailer->sendMail();
   3. By deafult the debudgging for PHPmailer is turned off, if you want to use debugging change to value of $mail->SMTPDebug to 1 in          sendMail() method defined inside Mail class.
 
 # Here is the link to official PHP mailer repo
-https://github.com/PHPMailer/PHPMailer
+  https://github.com/PHPMailer/PHPMailer
 
