@@ -2,7 +2,7 @@
 - This repo  wraps PHP mailer into a class which makes it even easier to use for new developers.
 - It as as simple as  inctanciating an object and calling a method
 
-# example
+# Example
 ```php 
     require 'Mail.php';
     
